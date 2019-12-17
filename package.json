@@ -1,0 +1,21 @@
+{
+  "name": "boost",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "webpack-dev-server --mode=development",
+    "build": "webpack --mode=production"
+  },
+  "dependencies": {
+    "mathjax": "^2.7.7",
+    "mathjs": "^6.2.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.5",
+    "@babel/preset-env": "^7.7.6",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
+  }
+}
